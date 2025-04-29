@@ -158,8 +158,7 @@ export default function Page() {
                 logoUrl={certification.logoUrl}
                 altText={certification.company}
                 title={certification.company}
-                subtitle={certification.degree}
-              />
+                subtitle={certification.degree} period={""}              />
             </BlurFade>
           ))}
         </div>
